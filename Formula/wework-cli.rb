@@ -4,7 +4,7 @@ class WeworkCli < Formula
   desc "CLI tool for WeWork"
   homepage "https://github.com/dvcrn/wework-cli"
   url "https://github.com/dvcrn/wework-cli.git", branch: "main"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   depends_on "python@3"
