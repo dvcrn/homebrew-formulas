@@ -1,4 +1,4 @@
-class WeeworkCli < Formula
+class WeworkCli < Formula
   include Language::Python::Virtualenv
 
   desc "CLI tool for WeWork"
