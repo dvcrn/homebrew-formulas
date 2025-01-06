@@ -7,7 +7,7 @@ class WeworkCli < Formula
   version "0.1.1"
   license "MIT"
 
-  depends_on "python@3.11"
+  depends_on "python@3"
   depends_on "pipx"
 
   def install
