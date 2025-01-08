@@ -8,9 +8,10 @@ class Wework < Formula
 
   bottle do
     rebuild 1
-    sha256 cellar: :any_skip_relocation,
-      arm64_sequoia: "0a7c16909a2095c22e88ca6deb5330822ff1e3900c34b51ac0e6b3b6790afaa9",
-      arm64_sonoma: "34aa628ca667b72afd8367dc8e12d0ae74802cfcb0a85698dae1b1d326461c93"
+      sha256 cellar: :any_skip_relocation,
+      arm64_sequoia: "6886eece2e633c8605f0aad865007d4e0a2377090015dfd0e56f812c4bf3b4b9",
+      arm64_sonoma: "34aa628ca667b72afd8367dc8e12d0ae74802cfcb0a85698dae1b1d326461c93",
+      root_url: "https://github.com/dvcrn/wework-cli/releases/download/1.0.0"
   end
 
   depends_on "go" => :build
