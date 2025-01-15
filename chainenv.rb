@@ -10,7 +10,7 @@ class Chainenv < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/dvcrn/chainenv/releases/download/1.0.0/chainenv_Darwin_x86_64.tar.gz"
-    sha256 "f0aa40682f80cf48c2c82eb98e91f6676f78acef00c7b7dd14d534a24dec6365"
+    sha256 "705f54c9fd1a8c0b6920d7fd92686f1b8a481209800add0ac2fdd20dd7a8ed18"
 
     def install
       bin.install "chainenv"
@@ -18,7 +18,7 @@ class Chainenv < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/dvcrn/chainenv/releases/download/1.0.0/chainenv_Darwin_arm64.tar.gz"
-    sha256 "ccffd13a5a7918d528f320cd377ab12e251a608df2d7877353ad80a09e62d627"
+    sha256 "9e31cb5ab168ce8aa0645432e87f5cff2060c216bf74f544db01107d106f87c9"
 
     def install
       bin.install "chainenv"
